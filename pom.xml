@@ -48,6 +48,8 @@
         <jruby.version>9.3.8.0</jruby.version>
         <bootstrap.version>5.2.0</bootstrap.version>
         <github.button.version>2.14.1</github.button.version>
+        <datatables.version>1.12.1</datatables.version>
+        <jquery.version>3.6.1</jquery.version>
         <gcp.sdk.version>26.1.2</gcp.sdk.version>
         <thymeleaf-spring5.version>3.0.15.RELEASE</thymeleaf-spring5.version>
         <thymeleaf.version>3.0.15.RELEASE</thymeleaf.version>
@@ -61,6 +63,7 @@
         <KeePassJava2.version>2.1.4</KeePassJava2.version>
         <system-stubs-jupiter.version>2.0.1</system-stubs-jupiter.version>
         <dependency-check-maven.version>7.0.4</dependency-check-maven.version>
+
     </properties>
 
     <dependencies>
@@ -155,6 +158,16 @@
             <groupId>org.webjars.npm</groupId>
             <artifactId>github-buttons</artifactId>
             <version>${github.button.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>datatables</artifactId>
+            <version>${datatables.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>${jquery.version}</version>
         </dependency>
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
