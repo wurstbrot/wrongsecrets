@@ -191,6 +191,10 @@ Therefore, you can manipulate them by overriding the following settings in your 
 - `hints_enabled=false` will turn off the `Show hints` button.
 - `reason_enabled=false` will turn of the `What's wrong?` explanation button.
 
+In case you use docker, you can set the env for example as following
+```
+docker run -e hints_enabled=false -p 8080:8080 jeroenwillemsen/wrongsecrets:latest-no-vault
+```
 ## Special thanks & Contributors
 
 Leaders:
